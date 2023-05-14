@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="rat.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="ape.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rat.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d9_x.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="ape.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="iconcpp.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="icons.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_help.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="XInput.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="ud.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KeyAuth-CPP-Example-main\skStr.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Keybind.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="skcrypt.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>STuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Connoa.h">
+      <Filter>STuff</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{89d64466-55af-43c5-a8af-5eea6a5f52cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{c3ea2088-a3ad-41bf-b883-8ddf92287b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STuff">
+      <UniqueIdentifier>{ef6bc6b8-901e-4c78-9d0e-eb78d6f84a32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib">
+      <Filter>STuff</Filter>
+    </Library>
+    <Library Include="library_x64.lib">
+      <Filter>STuff</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
